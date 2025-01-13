@@ -2,15 +2,18 @@
 	font-family: Lexend;
 	src: url("../fonts/LexendDeca-VariableFont_wght.ttf");
 }
+
 @font-face {
 	font-family: Big Shoulders;
 	src: url("../fonts/BigShouldersDisplay-VariableFont_wght.ttf");
 }
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body {
 	height: 100vh;
 	display: flex;
@@ -19,36 +22,44 @@ body {
 	align-items: center;
 	background-color: hsl(0, 0%, 95%);
 }
+
 .main-container {
 	margin: auto 0;
 	display: flex;
 	flex-direction: row;
 }
+
 .column {
 	font-family: Lexend;
 	width: 280px;
 	padding: 30px;
 }
+
 .sedans-column {
 	background-color: hsl(31, 77%, 52%);
 	border-radius: 10px 0 0 10px;
 }
+
 .suvs-column {
 	background-color: hsl(184, 100%, 22%);
 }
+
 .luxury-column {
 	background-color: hsl(179, 100%, 13%);
 	border-radius: 0 10px 10px 0;
 }
+
 .car-image {
 	width: 60px;
 	margin: 0 0 20px 0;
 }
+
 .heading-text {
 	font-family: Big Shoulders;
 	color: hsl(0, 0%, 95%);
 	margin: 0 0 20px 0;
 }
+
 /* .text-button {
 	display: flex;
 	flex-direction: column;
@@ -59,6 +70,7 @@ body {
 	color: hsl(0, 0%, 100%, 0.75);
 	margin: 0 0 40px 0;
 }
+
 .learn-button {
 	font-weight: bold;
 	padding: 10px 25px;
@@ -68,46 +80,59 @@ body {
 	cursor: pointer;
 	transition: 0.4s;
 }
+
 .learn-button:hover {
 	color: hsl(0, 0%, 95%);
 }
+
 .sedans-button {
 	color: hsl(31, 77%, 52%);
 }
+
 .sedans-button:hover {
 	background-color: hsl(31, 77%, 52%);
 }
+
 .suvs-button {
 	color: hsl(184, 100%, 22%);
 }
+
 .suvs-button:hover {
 	background-color: hsl(184, 100%, 22%);
 }
+
 .luxury-button {
 	color: hsl(179, 100%, 13%);
 }
+
 .luxury-button:hover {
 	background-color: hsl(179, 100%, 13%);
 }
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
 }
+
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
 @media (max-width: 475px) {
 	.main-container {
 		margin: 20px 0;
 		flex-direction: column;
 	}
+
 	.column {
 		margin: 0 auto;
-		width: 80%;
+		width: 90%;
 	}
+
 	.sedans-column {
 		border-radius: 10px 10px 0 0;
 	}
+
 	.luxury-column {
 		border-radius: 0 0 10px 10px;
 	}
